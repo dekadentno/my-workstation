@@ -60,8 +60,7 @@ export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]
 * Bracket Highlighter
 * Color Highlight
 * File Icons
-* Material Color Scheme
-* Material Theme
+* Adaptive Theme + Material Theme Darker color scheme
 * Sass
 * Sidebar Enchatements
 * Vue Syntax Highlight
