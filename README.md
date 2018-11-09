@@ -56,6 +56,15 @@ parse_git_branch() {
 export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;32m\] $(parse_git_branch)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
 ```
 
+### Sublime plugins 
+* Bracket Highlighter
+* Color Highlight
+* File Icons
+* Material Color Scheme
+* Material Theme
+* Sass
+* Sidebar Enchatements
+* Vue Syntax Highlight
+
 # Add in the future
 * Sublime snippets
-* Sublime plugins
