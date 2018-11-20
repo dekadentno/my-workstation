@@ -23,6 +23,7 @@
 * Brave browser 
 * VLC
 * Ledger Live
+* Quod Libet
 
 # Configs
 
