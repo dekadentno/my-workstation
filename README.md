@@ -7,6 +7,7 @@
 * FlowCrypt
 * LastPass
 * Vue Devools
+* Netcraft Extenstion
 
 ### Dev
 * Sublime Text 2 + Material theme https://github.com/equinusocio/material-theme
