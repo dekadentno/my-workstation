@@ -25,6 +25,7 @@
 * VLC
 * Ledger Live
 * Quod Libet
+* Redshift
 
 # Configs
 
