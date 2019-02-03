@@ -99,5 +99,13 @@ export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]
 * Sidebar Enchatements
 * Vue Syntax Highlight
 
+### VS Code extensions
+* Auto Rename Tag
+* Bracket Pair Colorizer
+* Material Theme
+* Vetur
+* VSCode Great Icons
+* Settings Sync
+
 # Add in the future
 * Sublime snippets
