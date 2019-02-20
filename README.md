@@ -56,6 +56,7 @@ alias grep='grep --color=auto'
 alias ll='ls -alF'
 alias h='history'
 alias brc='nano ~/.bashrc'
+alias pushy='npm version patch && git push && git push --tags'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
