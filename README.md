@@ -26,6 +26,8 @@
 * Ledger Live
 * Quod Libet
 * Redshift
+* UNetbootin (for creating bootable USBs)
+* GParted
 
 # Configs
 
