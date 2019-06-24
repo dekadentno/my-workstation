@@ -8,6 +8,7 @@
 * LastPass
 * Vue Devools
 * Netcraft Extenstion
+* Authenticator
 
 ### Dev
 * Sublime Text 2 + Material theme https://github.com/equinusocio/material-theme
@@ -15,7 +16,6 @@
 
 ### Other productivity related software
 * htop
-* Telegram 
 * Terminator 
 * Albert https://github.com/albertlauncher/albert
 * Anoise http://anoise.tuxfamily.org/
@@ -24,6 +24,7 @@
 * Brave browser 
 * VLC
 * Ledger Live
+* Telegram 
 * Quod Libet
 * Redshift
 * UNetbootin (for creating bootable USBs)
@@ -52,7 +53,7 @@ Host bitbucket.org
 ```
 
 ### bashrc
-Don't forger ```source ~/.bashrc```
+Don't forget ```source ~/.bashrc```
 ```bash
 alias grep='grep --color=auto'
 alias ll='ls -alF'
@@ -112,6 +113,9 @@ export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]
 * Settings Sync
 * Git Blame
 * Sublime Text Keymap
+* Code Time
+* Live Share
+* IntelliJ IDEA Keybindings
 
 # Add in the future
 * Sublime snippets
