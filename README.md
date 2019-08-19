@@ -116,6 +116,9 @@ export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]
 * Code Time
 * Live Share
 * IntelliJ IDEA Keybindings
+* DotENV
+* Python
+* Vue Peek
 
 # Add in the future
 * Sublime snippets
