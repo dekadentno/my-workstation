@@ -60,6 +60,8 @@ alias ll='ls -alF'
 alias h='history'
 alias brc='nano ~/.bashrc'
 alias pushy='npm version patch && git push && git push --tags'
+alias workie='sudo openconnect vpn.xxxxxxxx.com'
+alias servach='python -m SimpleHTTPServer 8086'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
