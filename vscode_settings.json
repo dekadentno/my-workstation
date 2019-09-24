@@ -1,0 +1,37 @@
+{
+  "search.exclude": {
+    "**/bower_components": true
+  },
+  "workbench.colorTheme": "CodeSandbox",
+  "breadcrumbs.enabled": false,
+  "showMusicMetrics": false,
+  "showGitMetrics": false,
+  "showWeeklyRanking": false,
+  "workbench.editor.showTabs": true,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    }
+  ],
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnSave": false,
+  "editor.tabCompletion": "on",
+  "vetur.validation.template": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 0,
+  "terminal.integrated.rendererType": "dom"
+}
