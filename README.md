@@ -9,6 +9,9 @@
 * Vue Devools
 * Netcraft Extenstion
 * Authenticator
+* Stylus
+* Privacy Badger
+* OneTab
 
 ### Dev
 * Sublime Text 2 + Material theme https://github.com/equinusocio/material-theme
