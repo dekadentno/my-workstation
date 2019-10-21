@@ -60,6 +60,7 @@ Don't forget ```source ~/.bashrc```
 ```bash
 alias grep='grep --color=auto'
 alias ll='ls -alF'
+alias edit='subl' 
 alias h='history'
 alias brc='nano ~/.bashrc'
 alias pushy='npm version patch && git push && git push --tags'
