@@ -125,6 +125,7 @@ export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]
 * DotENV
 * Python
 * Vue Peek
+* SCSS Formatter
 
 # Add in the future
 * Sublime snippets
