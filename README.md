@@ -127,5 +127,31 @@ export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]
 * Vue Peek
 * SCSS Formatter
 
+### VS Code custom snippets
+```javascript
+{
+   "insert js/json code": {
+      "scope": "",
+      "prefix": "dump",
+      "body": [
+         "<pre>",
+         "<code class=\"javascript\">",
+         "$1",
+         "</code>",
+         "</pre>"
+      ],
+      "description": "insert pre tag with code"
+   },
+   "Print to console": {
+      "scope": "javascript,typescript",
+      "prefix": "asdf",
+      "body": [
+         "console.log('$1');",
+      ],
+      "description": "Log output to console"
+   }
+}
+
+```
 # Add in the future
 * Sublime snippets
