@@ -1,17 +1,17 @@
 # my-workstation
 :computer: Configs, plugins, programs I use at my workstation
 
-### Chrome plugins
+### Chrome extensions
 * HTTPS everywhere
 * uBlock Origin
 * FlowCrypt
-* LastPass
+* Bitwarden
 * Vue Devools
 * Netcraft Extenstion
 * Authenticator
 * Stylus
 * Privacy Badger
-* OneTab
+* Tab Pinner 
 
 ### Dev
 * Sublime Text 2 + Material theme https://github.com/equinusocio/material-theme
