@@ -32,6 +32,7 @@
 * Redshift
 * UNetbootin (for creating bootable USBs)
 * GParted
+* Steam
 
 # Configs
 
