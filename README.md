@@ -60,6 +60,9 @@ Host bitbucket.org
 ### bashrc
 Don't forget ```source ~/.bashrc```
 ```bash
+# Set default editor
+export EDITOR=code
+
 alias grep='grep --color=auto'
 alias ll='ls -alF'
 alias edit='subl' 
@@ -68,6 +71,14 @@ alias brc='nano ~/.bashrc'
 alias pushy='npm version patch && git push && git push --tags'
 alias workie='sudo openconnect vpn.xxxxxxxx.com'
 alias servach='python -m SimpleHTTPServer 8086'
+
+alias loadbash='source ~/.bash_profile'     # Load bash profile
+alias edithosts='code /etc/hosts'           # Edit hosts file
+alias editbash='code ~/.bash_profile'       # Edit bash profile
+alias editsshconfig='code ~/.ssh/config'    # Edit ssh config file
+
+mktar() { tar cvzf "${1%%/}.tar.gz"  "${1%%/}/"; }    # Creates a *.tar.gz archive of a file or folder
+mkzip() { zip -r "${1%%/}.zip" "$1" ; }               # Create a *.zip archive of a file or folder
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
