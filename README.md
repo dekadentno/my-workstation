@@ -82,7 +82,7 @@ mkzip() { zip -r "${1%%/}.zip" "$1" ; }               # Create a *.zip archive o
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo er$
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo er$'
 
 # extract ze everything
 extract () {
