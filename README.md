@@ -65,7 +65,7 @@ export EDITOR=code
 
 alias grep='grep --color=auto'
 alias ll='ls -alF'
-alias edit='subl' 
+alias edit='code' 
 alias h='history'
 alias brc='nano ~/.bashrc'
 alias pushy='npm version patch && git push && git push --tags'
