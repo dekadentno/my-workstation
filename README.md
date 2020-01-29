@@ -11,9 +11,11 @@
 * Authenticator
 * Stylus
 * Privacy Badger
-* Tab Pinner 
+* Tab Pinner
+* Daily
 
 ### Dev
+* VSCodium
 * Sublime Text 2 + Material theme https://github.com/equinusocio/material-theme
 * NVM https://github.com/creationix/nvm
 
