@@ -13,6 +13,7 @@
 * Privacy Badger
 * Tab Pinner
 * Daily
+* Pesticide
 
 ### Dev
 * VSCodium
