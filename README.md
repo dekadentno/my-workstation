@@ -37,6 +37,7 @@
 * Quod Libet
 * UNetbootin (for creating bootable USBs)
 * GParted
+* Balena Etcher
 
 # Configs
 
