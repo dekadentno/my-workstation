@@ -28,6 +28,7 @@
 * Anoise http://anoise.tuxfamily.org/
 
 ### Other software
+* gufw
 * Telegram 
 * Redshift
 * Steam
