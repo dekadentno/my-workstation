@@ -24,7 +24,7 @@
 * htop
 * iotop
 * Terminator 
-* Albert https://github.com/albertlauncher/albert
+* Albert / Cerebro
 * Anoise http://anoise.tuxfamily.org/
 
 ### Other software
