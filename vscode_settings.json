@@ -8,30 +8,37 @@
   "showGitMetrics": false,
   "showWeeklyRanking": false,
   "workbench.editor.showTabs": true,
-  "eslint.validate": [
-    {
-      "language": "vue",
-      "autoFix": true
-    },
-    {
-      "language": "html",
-      "autoFix": true
-    },
-    {
-      "language": "javascript",
-      "autoFix": true
-    },
-    {
-      "language": "javascriptreact",
-      "autoFix": true
-    }
+  "workbench.editor.enablePreview": false,
+  "eslint.options": {
+    "extensions": [
+      ".html",
+      ".js",
+      ".vue",
+      ".jsx"
+    ]
+  },
+  "prettier.eslintIntegration": true,
+  "prettier.printWidth": 80,
+  "prettier.singleQuote": true,
+  "prettier.disableLanguages": [
+    "html"
   ],
-  "eslint.autoFixOnSave": true,
   "editor.formatOnSave": false,
   "editor.tabCompletion": "on",
   "vetur.validation.template": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": 0,
-  "terminal.integrated.rendererType": "dom"
+  "window.zoomLevel": -3,
+  "terminal.integrated.rendererType": "dom",
+  "cSpell.language": "en,en-GB",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
+  "liveshare.featureSet": "insiders",
+  "todo-tree.tree.showScanModeButton": false,
+  "editor.minimap.enabled": false,
+  // "eslint.enable": true,
+  // "editor.tabSize": 2,
+  // "eslint.alwaysShowStatus": true
 }
