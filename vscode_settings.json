@@ -37,8 +37,5 @@
   },
   "liveshare.featureSet": "insiders",
   "todo-tree.tree.showScanModeButton": false,
-  "editor.minimap.enabled": false,
-  // "eslint.enable": true,
-  // "editor.tabSize": 2,
-  // "eslint.alwaysShowStatus": true
+  "editor.minimap.enabled": false
 }
