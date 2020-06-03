@@ -23,6 +23,7 @@
 ### Other productivity related software
 * htop
 * iotop
+* exa https://github.com/ogham/exa
 * Terminator 
 * Albert / Cerebro
 * Anoise http://anoise.tuxfamily.org/
