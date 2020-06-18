@@ -22,8 +22,9 @@
 
 ### Other productivity related software
 * htop
+* xclip (sudo apt install xclip)
 * iotop
-* exa https://github.com/ogham/exa
+* lsd https://github.com/Peltoche/lsd
 * Terminator 
 * Albert / Cerebro
 * Anoise http://anoise.tuxfamily.org/
@@ -77,6 +78,7 @@ alias brc='nano ~/.bashrc'
 alias pushy='npm version patch && git push && git push --tags'
 alias workie='sudo openconnect vpn.xxxxxxxx.com'
 alias servach='python -m SimpleHTTPServer 8086'
+alias pbcopy='xclip -selection clipboard'
 
 alias loadbash='source ~/.bash_profile'     # Load bash profile
 alias edithosts='code /etc/hosts'           # Edit hosts file
