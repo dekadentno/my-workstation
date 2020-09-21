@@ -79,6 +79,7 @@ alias pushy='npm version patch && git push && git push --tags'
 alias workie='sudo openconnect vpn.xxxxxxxx.com'
 alias servach='python -m SimpleHTTPServer 8086'
 alias pbcopy='xclip -selection clipboard'
+alias gbdel='git branch | egrep -v "(master|\*)" | xargs git branch -D' # remove all local branches except master and current one
 
 alias loadbash='source ~/.bash_profile'     # Load bash profile
 alias edithosts='code /etc/hosts'           # Edit hosts file
@@ -114,6 +115,18 @@ extract () {
    fi
  }
 
+# usage: confirm && ls -al
+confirm() {
+    read -r -p "${1:-Are you sure? [y/N]} " response
+    case "$response" in
+        [yY]) 
+            true
+            ;;
+        *)
+            false
+            ;;
+    esac
+}
 
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
