@@ -151,6 +151,7 @@ export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]
 * Python
 * Vue Peek
 * SCSS Formatter
+* semgrep
 
 ### VS Code custom snippets
 ```javascript
