@@ -16,6 +16,7 @@
 * Pesticide
 * Whatruns
 * Axe
+* WCAG Contrast Checker
 
 
 ### Dev
