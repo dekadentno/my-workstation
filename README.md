@@ -14,6 +14,8 @@
 * Tab Pinner
 * Daily
 * Pesticide
+* Whatruns
+
 
 ### Dev
 * VSCodium
