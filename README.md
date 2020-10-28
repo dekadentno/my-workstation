@@ -17,6 +17,7 @@
 * Whatruns
 * Axe
 * WCAG Contrast Checker
+* Wappalyzer
 
 
 ### Dev
