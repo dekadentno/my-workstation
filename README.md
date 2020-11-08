@@ -34,6 +34,7 @@
 * Albert / Cerebro
 * Anoise http://anoise.tuxfamily.org/
 * bat https://github.com/sharkdp/bat 
+* ncu https://www.npmjs.com/package/npm-check-updates
 
 ### Other software
 * gufw
