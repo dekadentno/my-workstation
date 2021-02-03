@@ -196,3 +196,10 @@ export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]
 }
 
 ```
+
+### Startup scripts
+```
+# fix for some mate versions for not locking the screen after waking up from suspend
+# detect the systemd signal and instruct mate-screensaver to lock the screen
+xss-lock -l -- mate-screensaver-command -l
+```
