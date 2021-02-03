@@ -48,6 +48,7 @@
 * UNetbootin (for creating bootable USBs)
 * GParted
 * Balena Etcher
+* ticker https://github.com/achannarasappa/ticker
 
 # Configs
 
