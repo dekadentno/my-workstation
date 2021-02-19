@@ -4,7 +4,6 @@
 ### Chrome extensions
 * HTTPS everywhere
 * uBlock Origin
-* FlowCrypt
 * Bitwarden
 * Vue Devools
 * Netcraft Extenstion
@@ -12,12 +11,11 @@
 * Stylus
 * Privacy Badger
 * Tab Pinner
-* Daily
 * Pesticide
-* Whatruns
 * Axe
 * WCAG Contrast Checker
 * Wappalyzer
+* I don't care about cookies
 
 
 ### Dev
