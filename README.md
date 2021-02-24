@@ -87,6 +87,7 @@ alias servach='python -m SimpleHTTPServer 8086'
 alias pbcopy='xclip -selection clipboard'
 alias gbdel='git branch | egrep -v "(master|\*)" | xargs git branch -D' # remove all local branches except master and current one
 alias dog='batcat'
+alias wifiz='nmcli dev wifi'
 
 alias loadbash='source ~/.bash_profile'     # Load bash profile
 alias edithosts='code /etc/hosts'           # Edit hosts file
