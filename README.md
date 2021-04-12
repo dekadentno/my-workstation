@@ -33,6 +33,7 @@
 * Anoise http://anoise.tuxfamily.org/
 * bat https://github.com/sharkdp/bat 
 * ncu https://www.npmjs.com/package/npm-check-updates
+* qrc https://github.com/fumiyas/qrc
 
 ### Other software
 * gufw
