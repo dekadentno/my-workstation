@@ -34,6 +34,7 @@
 * bat https://github.com/sharkdp/bat 
 * ncu https://www.npmjs.com/package/npm-check-updates
 * qrc https://github.com/fumiyas/qrc
+* seahorse
 
 ### Other software
 * gufw
