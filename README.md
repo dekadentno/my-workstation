@@ -207,3 +207,15 @@ export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]
 # detect the systemd signal and instruct mate-screensaver to lock the screen
 xss-lock -l -- mate-screensaver-command -l
 ```
+
+### Keybindings
+
+```bash
+# export/import desktop keybindings with
+dconf dump /org/mate/desktop/keybindings/ > dconf-mate-desktop-keybindings.conf
+cat dconf-mate-desktop-keybindings.conf | dconf load /org/mate/desktop/keybindings/
+
+# export/import macro keybindings with
+dconf dump /org/mate/marco/window-keybindings/ > dconf-mate-marco-keybindings.conf
+cat dconf-mate-marco-keybindings.conf | dconf load /org/mate/marco/window-keybindings/
+```
