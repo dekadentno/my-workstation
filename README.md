@@ -13,8 +13,10 @@
 * Tab Pinner
 * Pesticide
 * Axe
+* Checka11y.css
 * WCAG Contrast Checker
 * Wappalyzer
+* GoFullPage
 * I don't care about cookies
 
 
