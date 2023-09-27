@@ -30,6 +30,7 @@
 * ncu https://www.npmjs.com/package/npm-check-updates
 * qrc https://github.com/fumiyas/qrc
 * seahorse
+* flameshot
 
 ### Other software
 * gufw
