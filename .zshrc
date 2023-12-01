@@ -105,6 +105,8 @@ alias h='history'
 alias servach='python -m SimpleHTTPServer 8086'
 alias edithosts='vim /etc/hosts'
 alias editsshconfig='vim ~/.ssh/config'
+alias grep='grep --color=auto'
+alias ip='ip --color=auto'
 
 # extract ze everything
 extract () {
