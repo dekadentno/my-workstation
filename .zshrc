@@ -102,11 +102,12 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ll='ls -alF'
 alias h='history'
-alias servach='python -m SimpleHTTPServer 8086'
+alias servach='python -m http.server 80'
 alias edithosts='vim /etc/hosts'
 alias editsshconfig='vim ~/.ssh/config'
-alias grep='grep --color=auto'
 alias ip='ip --color=auto'
+alias grep='grep --color=auto'
+
 
 # extract ze everything
 extract () {
@@ -115,7 +116,7 @@ extract () {
            *.tar.bz2)   tar xvjf $1    ;;
            *.tar.gz)    tar xvzf $1    ;;
            *.bz2)       bunzip2 $1     ;;
-           *.rar)       unrar x $1     ;;
+           *.rar)       unrar x $1       ;;
            *.gz)        gunzip $1      ;;
            *.tar)       tar xvf $1     ;;
            *.tbz2)      tar xvjf $1    ;;
