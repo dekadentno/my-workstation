@@ -107,7 +107,8 @@ alias edithosts='vim /etc/hosts'
 alias editsshconfig='vim ~/.ssh/config'
 alias ip='ip --color=auto'
 alias grep='grep --color=auto'
-
+alias folder='xdg-open .'
+alias unload='mv /home/$USER/sharez/dumpez/* ./' # move files transfered from victim in the current working directory
 
 # extract ze everything
 extract () {
@@ -130,3 +131,15 @@ extract () {
        echo "'$1' is not a valid file!"
    fi
  }
+
+# find nmap nse scripts by keyword, comma separated list
+findnse() {
+    local keyword=$1
+    find /usr/share/nmap/scripts -type f -name "*$keyword*.nse" -printf "%f," | sed 's/\.nse,/,/g' | tr -d '\n' | sed 's/,$//'
+}
+
+# setup simple pentest environment in current working directory
+setupEnv() {
+    touch usernames.txt passwords.txt machines.txt
+    mkdir -p hashes exploits keys clues
+}
