@@ -109,9 +109,10 @@ alias ip='ip --color=auto'
 alias grep='grep --color=auto'
 alias folder='xdg-open .'
 alias unload='mv /home/$USER/sharez/dumpez/* ./' # move files transfered from victim in the current working directory
+alias halp='cat ~/.zshrc | grep -e "^alias" -e "^function" | less'
 
 # extract ze everything
-extract () {
+function extract () {
    if [ -f $1 ] ; then
        case $1 in
            *.tar.bz2)   tar xvjf $1    ;;
@@ -133,13 +134,13 @@ extract () {
  }
 
 # find nmap nse scripts by keyword, comma separated list
-findnse() {
+function findNse() {
     local keyword=$1
     find /usr/share/nmap/scripts -type f -name "*$keyword*.nse" -printf "%f," | sed 's/\.nse,/,/g' | tr -d '\n' | sed 's/,$//'
 }
 
 # setup simple pentest environment in current working directory
-setupEnv() {
+function setupEnv() {
     touch usernames.txt passwords.txt machines.txt
     mkdir -p hashes exploits keys clues
 }
