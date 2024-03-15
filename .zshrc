@@ -144,3 +144,13 @@ function setupEnv() {
     touch usernames.txt passwords.txt machines.txt
     mkdir -p hashes exploits keys clues
 }
+
+# CTF purposes
+set_target() {
+    export TARGET="$1"
+}
+
+# CTF purposes
+unset_target() {
+    unset TARGET
+}
