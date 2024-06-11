@@ -1,0 +1,17 @@
+# repace with ~/.config/AutoRecon/config.toml
+verbose = 2
+output = 'autorecon'
+[global]
+username-wordlist = '/usr/share/seclists/Usernames/cirt-default-usernames.txt'
+password-wordlist = '/usr/share/seclists/Passwords/darkweb2017-top1000.txt'
+
+
+[dirbuster]
+tool = 'feroxbuster'
+recursive = true
+wordlist = [
+	'/usr/local/lib/python3.11/dist-packages/autorecon/wordlists/dirbuster.txt',
+	'/usr/share/seclists/Discovery/Web-Content/common.txt',
+	'/usr/share/seclists/Discovery/Web-Content/big.txt',
+	'/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt'
+]
