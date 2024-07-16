@@ -10,7 +10,7 @@ plugins=(
   ["zsh-z"]="https://github.com/agkozak/zsh-z.git"
   ["zsh-syntax-highlighting"]="https://github.com/zsh-users/zsh-syntax-highlighting.git"
   ["zsh-autosuggestions"]="https://github.com/zsh-users/zsh-autosuggestions.git"
-  ["you-should-use"]="https://github.com/MichaelAquilina/zsh-you-should-use.git"
+  # ["you-should-use"]="https://github.com/MichaelAquilina/zsh-you-should-use.git"
 )
 
 for plugin in "${!plugins[@]}"; do
