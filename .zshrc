@@ -70,7 +70,7 @@ ZSH_THEME="half-life"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z zsh-syntax-highlighting zsh-autosuggestions you-should-use colored-man-pages)
+plugins=(git z zsh-syntax-highlighting zsh-autosuggestions colored-man-pages)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,7 +108,6 @@ alias editsshconfig='vim ~/.ssh/config'
 alias ip='ip --color=auto'
 alias grep='grep --color=auto'
 alias folder='xdg-open .'
-alias unload='mv /home/$USER/sharez/dumpez/* ./' # move files transfered from victim in the current working directory
 alias halp='cat ~/.zshrc | grep -e "^alias" -e "^function" | less'
 
 # extract ze everything
@@ -141,16 +140,6 @@ function findNse() {
 
 # setup simple pentest environment in current working directory
 function setupEnv() {
-    touch usernames.txt passwords.txt machines.txt
+    touch usernames.txt passwords.txt machines.txt hashes.txt
     mkdir -p hashes exploits keys clues
-}
-
-# CTF purposes
-set_target() {
-    export TARGET="$1"
-}
-
-# CTF purposes
-unset_target() {
-    unset TARGET
 }
